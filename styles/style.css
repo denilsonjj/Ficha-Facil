@@ -1,0 +1,138 @@
+/*geral*/
+body , html{
+margin: 0;
+padding: 0;
+height: 100%;
+width: 100%;
+background-color: #212529;
+font-family: 'Roboto', arial, sans-serif;
+}
+
+/*navBar*/
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+}
+.title{
+color: white;
+}
+.itens{
+    margin-right: 50px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+   color: black;
+}
+li{
+    list-style: none;
+}
+.navItens{
+    margin: 10px;
+    color: #fff;
+    transition: 0.7 all;
+    cursor: pointer;
+}
+.navItens:hover{
+    color: #ffb612;
+}
+.title-span{
+    color: #ffb612;
+}
+/*section*/
+section{
+    background-color:#212529 ;
+    color: white;
+    margin-top: 0;
+    width: 100%;
+}
+
+p{
+    margin-top: 30px;
+    color: #ffffff;}
+h1{
+    font-size: 40px;
+    padding-top: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+
+.text-principal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 200px;
+}
+
+/*footer*/
+footer{
+    padding-top:40px ;
+    margin-top: 0;
+    background-color: #212529;
+    color: #fff;
+}
+.footer-conteud{
+   text-align: center;
+   font-size: 20px;
+   color: rgb(172, 169, 169);
+}
+.footer-conteud:hover{
+    color: #fff;
+}
+.linha{
+    border: 1px solid gray;
+    width: 10%;
+   display: flex;
+   margin: 20px auto;
+}
+
+.footer-itens-area{
+    display: flex;
+    justify-content: center;
+  
+}
+.footer-itens{
+    margin: 10px;
+  
+    transition: 0.8 all;
+         
+}
+.footer-itens:hover{
+  box-shadow: 0 0 1em #fff;
+
+}
+ /*Fale conosco*/
+ .contato-area{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+ }
+ .contact-button{
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: 0.9;
+    cursor: pointer;
+    width: 200px;
+ 
+ }
+ .contact-button:hover{
+    color: #ffb612;
+    box-shadow: 0 0 1em #776214;
+    border: none;
+    background-color: transparent;
+ }
+ textarea{
+     outline: none;
+ }

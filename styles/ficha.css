@@ -1,0 +1,144 @@
+/*geral*/
+body , html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    font-family: 'Roboto', arial, sans-serif;
+    }
+    
+    /*navBar*/
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        padding: 10px;
+        align-items: center;
+    }
+    .title{
+    color: white;
+    }
+    .itens{
+        margin-right: 50px;
+        display: flex;
+    }
+    a{
+        text-decoration: none;
+       color: black;
+    }
+    li{
+        list-style: none;
+    }
+    .navItens{
+        margin: 10px;
+        color: #fff;
+        transition: 0.7 all;
+        cursor: pointer;
+    }
+    .navItens:hover{
+        color: #ffb612;
+    }
+    .title-span{
+        color: #ffb612;
+    }
+    /*section*/
+    section{
+        background-color:#212529 ;
+        color: white;
+        margin-top: 0;
+        width: 100%;
+    }
+    
+    p{
+        margin-top: 30px;
+        color: #ffffff;}
+    h1{
+        font-size: 40px;
+        padding-top: 20px;
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    
+    /*section*/
+    .text-principal{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        margin: 0 200px;
+    }
+    .linha{
+        border: 1px solid gray;
+        width: 10%;
+       display: flex;
+       margin: 20px auto;
+    }
+    .text-principal{
+  display: flex;
+  justify-content: center;
+    }
+
+    /**/
+
+    input {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        outline: 0;
+        background-color: black;
+        color: #fff;
+        margin-top: 8px;
+        margin-bottom: 10px;
+      }
+      input::placeholder{
+          color: #fff;
+          font-size: 18px;
+          padding-left: 10px;
+      }
+      input:hover {
+        box-shadow: 0 0 1em #ffdb58;
+      }
+      .container{
+          margin: 0 auto;
+         text-align: center;
+      }
+    input{
+        margin: 10px;
+        padding: 10px;
+    text-align: center;
+    }
+    .button {
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: #ffb612;
+        margin-bottom: 10px;
+        padding: 10px;
+        transition: 0.9 all;
+        cursor: pointer;
+        box-shadow: 0 0 1em #776214;
+        border: none;
+        background-color: transparent;
+        color: #ffb612;
+      }
+      .button:hover{
+          padding: 13px;
+          background-color: #2c2e30;
+      }
+select{
+    background-color: black;
+    outline: none;
+    color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    border-color:transparent ;
+  
+}
+.area-pdf{
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
