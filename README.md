@@ -6,12 +6,7 @@ HTML Para construção da estrutura da página.
 </div>
 <div>
 <h3>CSS para customização e também Bootstrap para customização dá tabela</h3>
-link do cdn : <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
+link :https://getbootstrap.com/docs/4.3/getting-started/download/
 </div>
 <div>Javascript foi usado o addEventListener('click') para fazer a interação do site com o botão, junto com if/else para validar o campos e o switch para fazer aparecer a tabela ou desaparecer.</div>
 
