@@ -136,9 +136,25 @@ select{
     padding: 15px;
     border-color:transparent ;
   
+}.text-sub{
+    display: flex;
+    flex-wrap:wrap ;
+    flex-direction: row;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
 }
 .area-pdf{
     margin: 0 auto;
     text-align: center;
     display: none;
+}
+#text{
+    display: flex;
+    color: #fff;
+    width: 400px;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    
 }
