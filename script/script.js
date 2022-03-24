@@ -12,17 +12,26 @@ let text = document.getElementById("text");
 
 let pdf= document.getElementById("pdf")
 
-if(pdf.style.display ==='block'){
-    pdf.style.display = 'none'
-}else {
-    pdf.style.display = 'block'
+function validate(){
+  
+switch (pdf) {
+    case pdf.style.display==='block':
+        pdf.style.display = 'none'
+        break;
+    default:
+        pdf.style.display = 'block'
+        break;
+}  
 }
-/*console.log(nameU);
-console.log(ageU);
-console.log(select); */
+if(select ==="selecione"){
+     text.innerHTML= "Selecione uma opção válida"
+    pdf.style.display ==='none'
+   
+}else{
+    validate()
+}
 
-
-text.innerHTML = "Nome: " +nameU +"\nIdade: " +ageU + "\nNivel:  " + select
+text.innerHTML = "Nome: " +nameU +"|" +"\nIdade: " +ageU +"|"+ "\nSou :  " + select
 })
 
 
