@@ -1,86 +1,83 @@
 /*geral*/
-body , html{
+html, body{
 margin: 0;
-padding: 0;
-height: 100%;
-width: 100%;
 background-color: #212529;
+width: 100%;
 font-family: 'Roboto', arial, sans-serif;
 }
-
 /*navBar*/
-nav{
-    width: 100%;
+nav {
     display: flex;
     justify-content: space-between;
     background-color: black;
-    padding: 10px;
     align-items: center;
-}
+  }
+/*
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 10px
+}*/
 .title{
-color: white;
+    font-size: 40px;
+    margin: 0;
 }
 .itens{
-    margin-right: 50px;
     display: flex;
-}
-a{
-    text-decoration: none;
-   color: black;
-}
-li{
+}li{
     list-style: none;
 }
+.area-itens{
+    margin-right: 20px;
+}
+a{
+    margin: 5px;
+    text-decoration: none;
+}
 .navItens{
-    margin: 10px;
-    color: #fff;
+     color: #fff;
     transition: 0.7 all;
     cursor: pointer;
 }
 .navItens:hover{
     color: #ffb612;
 }
+
+
+.title{
+text-align: center;
+color: white;
+}
+
 .title-span{
     color: #ffb612;
 }
-/*section*/
+
 section{
     background-color:#212529 ;
     color: white;
-    margin-top: 0;
-    width: 100%;
 }
-
-p{
-    margin-top: 30px;
-    color: #ffffff;}
 h1{
-    font-size: 40px;
-    padding-top: 20px;
-    margin-top: 0;
-    text-align: center;
+    margin-top: 0%;
+    padding: 10px ;
 }
-
-
-
 .text-principal{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
+ width: 600px;
+ margin: 0 auto;
+text-align: center;
 }
-.text-sub{
-    display: flex;
-    flex-wrap:wrap ;
-    flex-direction: row;
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
+ .text-sub{
+   width: 600px;
+margin: 0 auto;
+text-align: center;
+
 }
+
 /*footer*/
 footer{
+    height: 100%;
     padding-top:40px ;
     margin-top: 0;
     background-color: #212529;
@@ -144,3 +141,18 @@ footer{
  textarea{
      outline: none;
  }
+/*responsivo*/
+
+@media  screen and (max-width:700px){
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+  .text-principal{
+      width: 370px;
+  }
+  .text-sub{
+      width: 370px;
+  }
+}

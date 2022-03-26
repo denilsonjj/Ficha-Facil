@@ -110,3 +110,16 @@ input:hover {
   border: none;
   background-color: transparent;
 }
+@media  screen and (max-width:700px){
+
+  nav{
+      display: flex;
+      flex-direction: column;
+  }
+.text-principal{
+    width: 370px;
+}
+.text-sub{
+    width: 370px;
+}
+}

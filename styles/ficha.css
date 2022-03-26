@@ -158,3 +158,17 @@ select{
     flex-direction: column;
     
 }
+@media  screen and (max-width:700px){
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+  .text-principal{
+      width: 370px;
+      margin: 0 auto;
+  }
+  .text-sub{
+      width: 370px;
+  }
+}
