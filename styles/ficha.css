@@ -135,8 +135,12 @@ select{
     border-radius: 10px;
     padding: 15px;
     border-color:transparent ;
-  
-}.text-sub{
+}
+#age{
+width: 100px;
+}
+
+.text-sub{
     display: flex;
     flex-wrap:wrap ;
     flex-direction: row;
