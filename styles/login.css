@@ -13,32 +13,34 @@ nav {
   display: flex;
   justify-content: space-between;
   background-color: black;
-  padding: 10px;
   align-items: center;
-}
-.title {
-  color: white;
-}
-.itens {
-  display: flex;
-}
-a {
+}a{
+  margin: 5px;
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
-li {
+.title{
+  font-size: 40px;
+  margin: 0;
+}
+.itens{
+  display: flex;
+}li{
   list-style: none;
 }
-.navItens {
-  margin: 10px;
-  color: #fff;
+.area-itens{
+  margin-right: 20px;
+}
+
+.navItens{
+   color: #fff;
   transition: 0.7 all;
   cursor: pointer;
 }
-.navItens:hover {
+.navItens:hover{
   color: #ffb612;
 }
-.title-span {
+.title-span{
   color: #ffb612;
 }
 h1 {

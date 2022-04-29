@@ -9,31 +9,32 @@ body , html{
     }
     
     /*navBar*/
-    nav{
-        width: 100%;
+    nav {
         display: flex;
         justify-content: space-between;
         background-color: black;
-        padding: 10px;
         align-items: center;
-    }
+      }
     .title{
-    color: white;
+        color: #fff;
+        font-size: 40px;
+        margin: 0;
     }
     .itens{
-        margin-right: 50px;
         display: flex;
-    }
-    a{
-        text-decoration: none;
-       color: black;
-    }
-    li{
+    }li{
         list-style: none;
     }
-    .navItens{
-        margin: 10px;
+    .area-itens{
+        margin-right: 20px;
+    }
+    a{
+        margin: 5px;
+        text-decoration: none;
         color: #fff;
+    }
+    .navItens{
+         color: #fff;
         transition: 0.7 all;
         cursor: pointer;
     }
